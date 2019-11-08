@@ -1,11 +1,7 @@
 import React, { useState, useEffect, } from "react";
 import axios from "axios";
 import NasaPhoto from "./NasaPhoto";
-import Styled from "styled-components";
 
-const nasapic = Styled.body`
-border = 5px, black;
-`;
 
 
 export default function Nasa() {
